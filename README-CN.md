@@ -56,6 +56,9 @@ docker-compose -f clickhosue_1zk-3shard-3replica up
 # zookeeper 3 节点，clickhosue 3 分片 1 副本
 docker-compose -f clickhosue_3zk-3shard-1replica up
 
+docker-compose -f clickhouse_3zk-3shard-1replica.yml up -d
+
+
 # zookeeper 3 节点，clickhosue 3 分片 3 副本
 docker-compose -f clickhosue_3zk-3shard-3replica up
 ```
