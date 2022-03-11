@@ -1,5 +1,5 @@
 <yandex>
-    <clickhouse_remote_servers>
+    <remote_servers>
         <cluster_3shard_1replica>
             <shard>
                 <replica>
@@ -20,21 +20,21 @@
                 </replica>
             </shard>
         </cluster_3shard_1replica>
-    </clickhouse_remote_servers>
-    <zookeeper-servers>
+    </remote_servers>
+    <zookeeper>
         <node>
-            <host>zk1</host>
+            <host>10.50.1.3</host>
             <port>2181</port>
         </node>
         <node>
-            <host>zk2</host>
-            <port>2181</port>
+            <host>10.50.1.3</host>
+            <port>2182</port>
         </node>
         <node>
-            <host>zk3</host>
-            <port>2181</port>
+            <host>10.50.1.3</host>
+            <port>2183</port>
         </node>
-    </zookeeper-servers>
+    </zookeeper>
     <macros>
         <shard>03</shard>
         <replica>ch03</replica>
