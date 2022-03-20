@@ -23,15 +23,15 @@
     </remote_servers>
     <zookeeper>
         <node>
-            <host>zk</host>
+            <host>zk1</host>
             <port>2181</port>
         </node>
         <node>
-            <host>zk</host>
+            <host>zk2</host>
             <port>2182</port>
         </node>
         <node>
-            <host>zk</host>
+            <host>zk3</host>
             <port>2183</port>
         </node>
     </zookeeper>
