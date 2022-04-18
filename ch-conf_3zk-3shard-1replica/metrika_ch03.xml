@@ -6,6 +6,10 @@
                     <host>ch01</host>
                     <port>9000</port>
                 </replica>
+		        <replica>
+                      <host>172.18.1.11</host>
+                      <port>9000</port>
+                </replica>
             </shard>
             <shard>
                 <replica>
@@ -16,6 +20,12 @@
             <shard>
                 <replica>
                     <host>ch03</host>
+                    <port>9000</port>
+                </replica>
+            </shard>
+	    <shard>
+                <replica>
+                    <host>172.18.1.12</host>
                     <port>9000</port>
                 </replica>
             </shard>
